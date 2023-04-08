@@ -577,6 +577,10 @@ class OMetaBase {
 
 		return true;
 	}
+	
+	get(target, key) {
+		return target[key]
+    	}
 
 	deleteProperty(target, key) {
 		let oldValue = target[key];
